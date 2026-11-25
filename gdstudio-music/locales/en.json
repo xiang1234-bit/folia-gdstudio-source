@@ -1,0 +1,39 @@
+{
+  "source": {
+    "name": "GD Music Studio",
+    "short": "GD Music"
+  },
+  "lyricSource": {
+    "name": "GD Music Studio"
+  },
+  "login": {
+    "title": "Connect GD Music Studio Playlists",
+    "note": "Enter a public NetEase user UID to sync playlists, or leave blank to continue with imported playlists and built-in charts.",
+    "uidLabel": "NetEase User UID (optional)",
+    "uidPlaceholder": "e.g. 32953014 (optional)",
+    "submit": "Sync & Continue"
+  },
+  "explore": {
+    "imported": "Imported Playlists",
+    "userPlaylists": "Synced User Playlists",
+    "charts": "GD Music Studio Charts"
+  },
+  "failure": {
+    "rateLimited": "GD Music Studio API rate limit reached. Please try again in a few minutes.",
+    "unsupportedSource": "GD Music Studio API does not currently support upstream \"{{upstream}}\". Switch to netease or another supported source in mod settings.",
+    "noAudio": "GD Music Studio returned no playable audio URL for this track.",
+    "cloudflare": "GD Music Studio returned a non-JSON challenge page. Please check your network or try again later.",
+    "playlistNotFound": "Could not load this playlist. Make sure the ID is valid and the playlist is public."
+  },
+  "switch": {
+    "done": "Switched GD Music Studio search upstream to: {{upstream}}"
+  },
+  "import": {
+    "cancelled": "Import cancelled",
+    "playlistDone": "Imported playlist \"{{name}}\" ({{count}} tracks). View it in Playlists or Explore (click Sync/Refresh if already open).",
+    "userDone": "Synced {{count}} public playlists for UID {{uid}}. View them in Playlists or Explore (click Sync/Refresh if already open).",
+    "jsonDone": "Imported {{playlists}} playlist(s) ({{tracks}} tracks) from JSON. View them in Playlists or Explore.",
+    "jsonEmpty": "No valid GD Music Studio playlist or track entries were found in that JSON file.",
+    "cleared": "Cleared all imported playlists ({{count}} removed)."
+  }
+}

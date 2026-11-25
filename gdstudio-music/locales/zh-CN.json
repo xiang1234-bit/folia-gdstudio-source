@@ -1,0 +1,39 @@
+{
+  "source": {
+    "name": "GD 音乐台",
+    "short": "GD音乐"
+  },
+  "lyricSource": {
+    "name": "GD 音乐台"
+  },
+  "login": {
+    "title": "连接 GD 音乐台歌单",
+    "note": "输入公开可见的网易云用户 UID 以同步歌单，或留空直接进入（仍可浏览内置榜单与本地导入歌单）。",
+    "uidLabel": "网易云用户 UID（可选）",
+    "uidPlaceholder": "例如 32953014，留空则仅显示已导入歌单与热门榜单",
+    "submit": "同步并进入"
+  },
+  "explore": {
+    "imported": "已导入的歌单",
+    "userPlaylists": "同步的用户歌单",
+    "charts": "GD 音乐台热门榜单"
+  },
+  "failure": {
+    "rateLimited": "GD 音乐台接口请求频率受限，请稍候几分钟后再试",
+    "unsupportedSource": "当前 GD 音乐台接口暂不支持上游源「{{upstream}}」，请在模组设置中切换为网易云 (netease) 或其他可用源",
+    "noAudio": "GD 音乐台未返回该歌曲的可用音频链接",
+    "cloudflare": "GD 音乐台接口返回了防爬校验页（非 JSON），请检查网络或稍后再试",
+    "playlistNotFound": "未能读取该歌单，请确认歌单 ID 正确且歌单已设为公开可见"
+  },
+  "switch": {
+    "done": "已将 GD 音乐台搜索上游切换为：{{upstream}}"
+  },
+  "import": {
+    "cancelled": "已取消导入",
+    "playlistDone": "已导入歌单「{{name}}」（共 {{count}} 首），可在首页「歌单」或「探索」页查看（若未更新请点右上角同步/刷新）",
+    "userDone": "已同步 UID {{uid}} 下的 {{count}} 张公开歌单，可在首页「歌单」或「探索」页查看（若未更新请点同步/刷新）",
+    "jsonDone": "已从本地文件导入 {{playlists}} 张歌单（共 {{tracks}} 首曲目），可在首页「歌单」或「探索」页查看",
+    "jsonEmpty": "未在该 JSON 文件中识别到有效的 GD 音乐台歌单或曲目数据",
+    "cleared": "已清空所有本地导入的歌单（共移除 {{count}} 张）"
+  }
+}
